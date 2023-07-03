@@ -39,4 +39,7 @@
   .steps .splide__arrow svg {
     @apply fill-white text-xl sm:text-2xl;
   }
+  html {
+    @apply scroll-smooth scroll-pt-[100px];
+  }
 }

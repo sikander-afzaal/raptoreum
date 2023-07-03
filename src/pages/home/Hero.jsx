@@ -3,7 +3,7 @@ const Hero = () => {
     <section className="wrapper  xl:h-screen py-[140px] xl:py-0 xl:min-h-[850px]">
       <div className="contain xl:flex-row flex-col justify-between h-full items-center xl:gap-10">
         <div className="flex xl:mb-0 -mb-[20px] sm:-mb-[130px] lg:-mb-10  max-w-[708px] justify-start items-center text-center xl:text-left xl:items-start flex-col gap-3">
-          <h3 className="leading-[1.2] uppercase text-white text-[50px] 2xl:text-[70px] font-normal">
+          <h3 className="leading-[1.2] uppercase text-white text-[35px] sm:text-[50px] 2xl:text-[70px] font-normal">
             <span className="bg-primary bg-clip-text text-transparent">
               Raptoreum
             </span>{" "}

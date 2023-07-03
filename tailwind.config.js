@@ -20,6 +20,11 @@ export default {
         hero: "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.15) 100%);",
         about:
           "linear-gradient(180deg,rgba(255, 255, 255, 0.11) 0%,rgba(255, 255, 255, 0.11) 51.65%,rgba(255, 255, 255, 0) 100%)",
+        roadmap:
+          "linear-gradient(to bottom, rgb(70.13, 148.58, 255), rgb(0, 97.63, 231.63)) 1",
+      },
+      screens: {
+        mid: "1315px",
       },
       boxShadow: {
         hero: "34.26px 31.05px 52.46px #00074814",
