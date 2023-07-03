@@ -27,4 +27,16 @@
   .contain {
     @apply flex w-[90%] max-w-[1500px];
   }
+  .steps .splide__arrow {
+    @apply bg-[#110F2D] w-[50px] sm:w-[70px] h-[50px] sm:h-[70px] opacity-100;
+  }
+  .steps .splide__arrow--prev {
+    @apply sm:top-1/2 top-[30%];
+  }
+  .steps .splide__arrow--next {
+    @apply sm:top-1/2 top-[30%];
+  }
+  .steps .splide__arrow svg {
+    @apply fill-white text-xl sm:text-2xl;
+  }
 }
