@@ -1,6 +1,11 @@
 const Roadmap = () => {
   return (
-    <section className="wrapper mt-[50px] sm:mt-[100px] lg:mt-[160px]">
+    <section className="relative pb-20 wrapper pt-[50px] sm:pt-[100px] lg:pt-[160px]">
+      <img
+        src="/bg.png"
+        className="mix-blend-multiply w-full absolute left-0 top-0 object-cover h-full -z-10"
+        alt=""
+      />
       <div className="contain justify-start items-center flex-col gap-5 md:gap-12">
         <h2 className="text-white font-normal text-[55px] md:text-[72px] uppercase">
           Roadmap

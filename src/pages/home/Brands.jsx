@@ -1,6 +1,6 @@
 const Brands = () => {
   return (
-    <section className="wrapper -mt-[80px] sm:-mt-[130px] xl:mt-4 2xl:mt-[110px]">
+    <section className="wrapper relative -mt-[80px] sm:-mt-[130px] xl:mt-4 2xl:mt-[110px]">
       <div className="contain justify-start items-center flex-col gap-10">
         <div className="grid w-full grid-cols-2 lg:grid-cols-[auto__auto__auto__auto] place-items-center gap-x-10 sm:gap-[100px] xl:gap-x-[160px] gap-y-[40px]">
           <img src="/pink.png" className="object-contain h-[60px]" alt="" />

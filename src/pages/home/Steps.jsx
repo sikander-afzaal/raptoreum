@@ -3,7 +3,12 @@ import "@splidejs/react-splide/css";
 
 const Steps = () => {
   return (
-    <section className="wrapper steps px-5 mt-[70px] sm:mt-[100px] lg:mt-[160px]">
+    <section className="relative wrapper steps px-5 pt-[70px] sm:pt-[100px] lg:pt-[160px]">
+      <img
+        src="/bg.png"
+        className="mix-blend-multiply w-full absolute left-0 top-0 object-cover h-full -z-10"
+        alt=""
+      />
       <Splide
         options={{
           perPage: 3,
