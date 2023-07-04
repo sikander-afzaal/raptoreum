@@ -29,7 +29,8 @@ const Header = () => {
 
           <a
             onClick={() => setHeaderToggle(false)}
-            href="#tokenomics"
+            href="https://raptoreum2023.gitbook.io/raptoreum-whitepaper/"
+            target="_blank"
             className="font-bold text-white text-lg 2xl:text-2xl uppercase"
           >
             Litepaper
